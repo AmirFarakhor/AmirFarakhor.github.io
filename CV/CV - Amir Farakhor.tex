@@ -1,0 +1,879 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             Curriculum Vitae                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,letter]{article}
+\topmargin-2.0cm
+\advance\oddsidemargin-1in
+%\advance\evensidemargin-1.2cm
+\textheight9.2in
+\textwidth6.75in
+\newcommand\bb[1]{\mbox{\em #1}}
+%\def\baselinestretch{1.25}
+\def\baselinestretch{1}
+
+\usepackage{multicol}
+% The use of the times package forces the use of the type-1 times
+% roman font, but the times roman font does not look nice.
+% Besides the times roman font still does not print correctly on
+% the dopy printer.
+%\usepackage{times}
+
+\usepackage{fancyhdr}
+\usepackage{origpagecounting}
+\usepackage[dvips]{color}
+\usepackage{hyperref}
+
+\newcounter{myEnumCounter}
+\newcounter{mySaveCounter}
+\renewenvironment{enumerate}{%
+  \begin{list}{\arabic{myEnumCounter}.}{\usecounter{myEnumCounter}%
+  \setcounter{myEnumCounter}{\value{mySaveCounter}}}
+  }{%
+  \setcounter{mySaveCounter}{\value{myEnumCounter}}\end{list}%
+}
+\newcommand\myEnumReset{\setcounter{mySaveCounter}{0}}
+
+% The old enumerate environment is rewritten, so you need no special command to
+% start continuing counting. With the command \myEnumReset you can Reset the couter
+% at any place in the text.
+
+% http://www.educat.hu-berlin.de/~voss/lyx/list/enum.phtml
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+\begin{document}
+
+%\thispagestyle{empty}
+%\pagestyle{plain}
+
+%\thispagestyle{fancy}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text}
+% Leave Left and Right Header empty.
+%\lhead{\textcolor{gray}{\it Sundar Iyer}}
+%\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize \textcolor{gray}{}}
+%A copy of this curriculum vitae, publications and 
+%talk slides are available for download at
+%http://www.stanford.edu/$\sim$sundaes/application}}
+
+
+%\pagestyle{myheadings}
+%\markboth{Sundar Iyer}{Sundar Iyer}
+
+\vspace*{-0.75cm}
+\begin{center}
+{\huge \bf AMIR FARAKHOR}
+\vspace*{0.25cm}
+\end{center}
+
+\begin{small}
+
+%===================================
+\begin{tabbing}
+\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+
+2900 Bob Billings Parkway & Phone: (785) 979-3425 \\
+Lawrence, KS-66049 &  Email: \href{mailto:a.farakhor@ku.edu}{a.farakhor@ku.edu}\\\href{https://amirfarakhor.github.io/}{https://amirfarakhor.github.io/}
+%http://www.stanford.edu/$\sim$sundaes & Alt: sundaes@cs.stanford.edu \\
+\end{tabular*}
+\end{tabbing}
+
+\vspace*{0.2cm}
+
+
+%==========================================
+%\vspace{0.20cm}
+
+\subsection*{PARTICULARS}
+
+%{\color{DarkSeaGreen}} \hrule
+\hrule
+\vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{EDUCATION}
+%\vspace{0.2cm}
+
+%\begin{tabbing}
+%xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>{\bf Academic record}\\[.7em]
+
+%\>\begin{tabular}{|l|l|l|}
+%\hline
+%Certificate	&	Place of study	&	Year\\
+%\hline
+%Ph. D. in Computer Sc.  & Stanford University     & {\it 2000-, Defended 2003} \\
+%\hline
+%M. S. in Computer Sc. & Stanford University     & {\it June 2000} \\
+%\hline
+%B. Tech in Computer Sc. and Engg. & I.I.T. Bombay  &	{\it April 1998} \\
+%\hline
+%\end{tabular}
+%\end{tabbing}
+
+%xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+\renewcommand{\arraystretch}{1.2}
+
+\begin{tabbing}
+xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>\begin{tabular*}{6.1in}{lr}
+
+\>\begin{tabular*}{0.9\linewidth}{l@{\extracolsep{\fill}}r}
+University of Kansas & Lawrence, KS \\
+Ph. D. in Mechanical Engineering  &  {\it Jan 2021 - Present}\\
+\textbf{GPA}: 4.00 & \\
+\parbox[l]{12cm}{\vspace{3pt}\textbf{Thesis Topic}: On Advanced Battery Energy Storage Systems: Design, Optimal Control, and Experimentation\vspace{3pt}} & \\ 
+\textbf{Supervisor}: Dr. Huazhen Fang & \\
+ & \\
+
+University of Tabriz & Tabriz, Iran \\
+Ph. D. in Electrical Engineering - Power Electronics & {\it Sep 2015 - Feb 2019}\\
+\parbox[l]{11.5cm}{\vspace{3pt} \textbf{Thesis Topic}: Design and Derivation of New Power Electronic Converters For Renewable Energy Sources \vspace{3pt}} & \\ 
+\textbf{Member of Organization Exceptional Talents} of University of Tabriz & \\
+ & \\
+
+Azarbaijan Shahid Madani University & Tabriz, Iran \\
+M. Sc. in Electrical Engineering & {\it  Sep 2012 - May 2014} \\
+\textbf{Member of Organization Exceptional Talents} of Azarbaijan Shahid Madani University & \\
+\\
+Azarbaijan Shahid Madani University & Tabriz, Iran \\
+B. Sc. in Electrical Engineering & {\it Sep 2008 - Sep 2012} \\
+\textbf{Member of Organization Exceptional Talents} of Azarbaijan Shahid Madani University & \\
+
+\end{tabular*}
+\end{tabbing}
+
+\subsubsection*{CURRENT STATUS}
+\begin{list}{}{}
+\item \textbf{U.S. Permanent Resident}, Citizen of Iran.
+\end{list}
+
+%\subsubsection*{RESEARCH INTERESTS}
+%%\hrule
+%%\vspace{0.2cm}
+%
+%\begin{list}{}{}
+%\item My research interests span the areas of network algorithms, system architecture
+%and component design. I have a specific interest in algorithms for packet processing,
+%switching, router design, memory architectures and scalable load balancing systems.
+%\end{list}
+
+%\subsubsection*{DISSERTATION}
+%
+%\begin{list}{}{}
+%\item Title: ``Parallelism and load-balancing for the Internet"  \\
+%Advisor: Prof. Nick McKeown
+%\end{list}
+%
+%My thesis develops an analytical framework for the design of networking systems
+%(specifically memory intensive aspects of Router Architecture, Packet Processing and Switching Algorithms) which give performance guarantees via the use of load balancing algorithms and parallelism in design. 
+
+%\vspace{0.1cm}
+%\subsection*{ACADEMIC HONORS}
+%\hrule
+%\vspace{0.2cm}
+%\begin{itemize}
+%%==================
+%
+%	\item Cisco Stanford FMA Fellowship, Stanford University, 2002-2003.
+%
+%	\item Siebel Scholars Fellowship, Stanford University, 2001.
+%
+%        \item  Paper chosen amongst the best papers from IEEE Hot Interconnects 2001 and
+%selected for publication to IEEE Micro.
+%
+%	\item Christofer Stephenson Memorial Award for the 
+%    best Masters Thesis in Computer Science, Stanford University, 2000.
+%
+%	\item Indian National Talent Search Merit Scholarship, 1992-1998.
+%
+%	\item Indian National Talent Search Examination in Physics (NSEP) awardee, 1993.
+%
+%	\item  Selected to participate in the Indian National Maths Olympiad, 1993.
+%
+%    \item Indian National Merit Scholarship, 1992-1998.
+%
+%\end{itemize}
+
+%\newpage
+\pagestyle{fancy}
+%\lhead{\textcolor{gray}{\it Sundar Iyer}}
+%\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+\fancyfoot[C]{}
+
+%\vspace{0.1cm}
+%\subsection*{WORK EXPERIENCE}
+%\hrule
+%\vspace{0.2cm}
+%\begin{itemize}
+%\item {\bf CTO, Co-Founder and Member of the Board, Nemo Systems,} Nov
+%2003 - Sep 2005. Nemo Systems (acquired by Cisco Systems in Sep 2005) 
+%was a fabless semiconductor company, building caching memory sub-systems 
+%for networking applications. 
+%
+%\item {\bf Consultant, Nevis Networks Inc.}, Sep. 2003 - Mar 2004.
+%Analyzed the performance of the Nevis switch fabric. Suggested
+%theoretically optimal and practical packet switching algorithms for the
+%distributed shared memory switch fabric.
+%
+%\item {\bf Systems Engineer, PMC-Sierra,} Sep. 2000 - Oct. 2001.
+%
+%\item {\bf Senior Systems Architect, SwitchOn Networks,} Jan. 1999 - Sep. 2000.
+%Part of the initial team of six members of SwitchOn Networks (later acquired by PMC-Sierra in Sep. 2000) during
+%its founding. Jointly responsible for the design, architecture, and algorithm evaluation of the ClassiPI chip set.
+%ClassiPI was a networking content co-processor which was released commercially in Feb. 2001. Other joint
+%responsibilities included technical marketing and patent strategy.
+%
+%\item {\bf Consultant, RIMO Technologies, India}, Jun. 1998 - Dec. 1998. \\
+%
+%%  Other joint responsibilities included technical marketing, patent strategy,
+%%  business development and sales. Was one of the first six founding members, of 
+%%  SwitchOn Networks (now acquired by PMC-Sierra) and was involved in this startup 
+%%  from the initial concept and venture capital stage to the successful acquisition and
+%%  commercial release of the ClassiPI chipset in Feb. 2001.
+%
+%\end{itemize}
+
+%\vspace{0.1cm}
+%\subsection*{RESEARCH EXPERIENCE}
+%\hrule
+%\vspace{0.2cm}
+%\begin{itemize}
+%\item {\bf Research Assistant, Stanford University}, Sep 1998 - Present. \\
+%{\bf Parallel Packet Switches}, (Sep 1998 - June 2000): We ask the question as to whether it is possible to build a large switch
+%from multiple smaller switches stacked in parallel, called the parallel packet switch (PPS), 
+%such that it behaves exactly like a large switch. I designed an algorithm and derived the
+%first analytical proof of the conditions under which this is possible. I then extended 
+%this work so that the PPS can support quality of service and multicast traffic. Later, I derived
+%and analyzed a practical distributed algorithm for the PPS. This research demonstrates how switching capacity can be scaled in an efficient
+%manner.
+%
+%\vspace{0.1cm}
+%{\bf Distributed Shared Memory Routers}, (Jan 2001 - Mar 2002): From a network designer's
+%perspective a shared memory router is ideal in that the packets
+%are stored in a central location and the memory bandwidth and space is shared across
+%packets from all ports. This sharing helps in conserving memory space and results in low cost
+%and low power routers. However, it is a widely held myth that such shared memory routers are not
+%scalable to higher speeds due to limitations imposed on the speed of a single memory. I worked 
+%on the first demonstration and proof to show how to build and scale the capacity of 
+%shared memory routers using distributed memories.  
+%
+%\vspace{0.1cm}
+%{\bf The Pigeon Hole Principle for Routers}, (Sep 1998 - Mar 2002): In the course of our
+%work on routers we derived a technique called ``Constraint Sets". This was used to
+%analyze a number of router architectures especially those with a single stage of
+%buffering. The ``Constraint Set" technique is a generalization of the
+%Pigeon Hole principle. Later, I extended this work to Combined Input Output Queued
+%routers, which are routers with two stages of buffering.
+%
+%\vspace{0.1cm}
+%{\bf Scalable, High Performance Packet Buffers}, (Sep 2000 - Mar 2002): Packet buffers on
+%Internet Routers have two requirements. They need to be large and have to be accessed at a very high rate. Unfortunately commodity memories such as
+%DRAMs have slow access speeds though they allow large storage, while commodity SRAMs allow fast
+%access but are inefficient in storage. I analyzed a well-known hierarchical buffer architecture
+%that has a small amount of SRAM cache combined with DRAM. However, unlike computer architecture
+%where caching only allows statistical guarantees, the algorithms proposed exploit the
+%characteristics of memory requirements for networking
+%to enable the design of a memory architecture which gives deterministic latency
+%guarantees. I showed how the optimal algorithm can be modeled using difference equations and used adversarial 
+%traffic patterns to derive bounds on the minimum size of the SRAM memory.
+%This resulting memory architecture supports
+%the access speeds of SRAM and has the storage capacity of DRAM. 
+%
+%
+%\vspace{0.1cm}
+%{\bf Deterministic Architectures for Statistics and State Maintenance}, (Sep 2000 - Mar 2002): A number
+%of packet processing tasks in the Internet put a large demand on the costs and the power budget for designers. We specifically evaluate two such
+%tasks; namely maintaining statistics counters and maintaining state of connections. We
+%propose architectural solutions and derive optimal algorithms. Our analytical results are based on the 
+%use of potential functions to model the system. This research shows how the above packet processing 
+%tasks can be scaled to very high line rates.
+%
+%\vspace{0.1cm}
+%{\bf Distributed Algorithms for Buffered Crossbars}, (June 2002 - Present):  Internet core routers have been designed lately using a crossbar switching fabric. 
+%While it is possible to build routers using crossbars which give deterministic performance
+%guarantees, the algorithms required to realize this are centralized and have high
+%computational complexity. Hence in practice most routers do not
+%use these algorithms and do not give any guaranteed performance.
+%A colleague of mine, Shang-Tse Chuang,  and I analyzed a slight modification to the
+%crossbar fabric called the buffered crossbar, which is simply a crossbar with a small number of buffers in it. 
+%We derive a bijection between a crossbar and a buffered crossbar to show that any
+%algorithm on the buffered crossbar can be implemented on the crossbar and vice versa. We
+%derive a suite of distributed algorithms on the buffered crossbar and derive
+%analytically the conditions under which they can give both statistical and deterministic
+%guarantees for both first come first serve routers and routers which support quality of
+%service. Since these distributed algorithms can operate independently on each input and
+%output port of the switch without communicating with each other, they are readily implementable.
+%Our results show that Internet routers built using crossbars can be re-designed in a
+%practical manner using buffered crossbars and give superior performance and
+%deterministic guarantees.
+%
+%\vspace{0.1cm}
+%{\bf Stability Properties of the Maximum Size Matching}, (May 2002 - Present):
+%Contrary to intuition, it is known in queueing theory that a greedy policy that
+%maximizes the instantaneous throughput in a system of queues may not maximize the long term throughput. 
+%However, greedy policies are of interest because they are usually easy to implement.
+%A maximum size matching is an example of such a greedy scheduling policy on crossbar
+%switches. I analyzed this greedy policy and showed that with 
+%stochastically constrained traffic and the framework of scheduling packets in batches,
+%the greedy policy maximizes the long term throughput. A number of open
+%problems remain in this area and at the time of writing, this work is in progress.
+%
+%\item {\bf Research Intern, ATL SprintLabs}, June - Sep. 2001. \\
+%{\bf Internet Measurements \& Deflection Routing:} Our work involved designing a practical solution for tackling link overload on the network
+%backbone. First, I analyzed how overload occurs on the Sprint backbone. 
+%This involved writing a tool to characterize link overload and create
+%statistics from SNMP measurements collected for a period of a year from the
+%Sprint backbone. With the intuition gained from these statistics we concluded that there
+%was a need to alleviate overload using deflection routing.
+%I suggested a method of setting link weights on the Sprint network (taking advantage of
+%the topology characteristics) to enable a loop free deflection routing algorithm.
+%
+%\item {\bf Research Intern, RIMO Technologies, India}, May - July 1997. \\
+%{\bf Packet Classification Algorithms:} Designed classification algorithms and developed a commercial software packet classifier for Windows NT and the VXL Terminal Server embedded system platform.
+%
+%\item {\bf Undergraduate Research Intern, I. I. T. Bombay}, Apr - July 1996. \\
+%{\bf Java Application Software:} Developed algorithms and software for Java applications for distributed computing, under Prof. Sharat Chandran.
+%
+%\end{itemize}
+
+%\begin{itemize}
+%
+%\item {\bf Teaching Assistant.} EE384X: Packet Switching Architectures-I, Prof. Balaji
+%Prabhakar and Prof. Nick McKeown, Winter 2002, Stanford University.
+%
+%\item {\bf Teaching Assistant.} EE384Y: Packet Switching Architectures-II, Prof. Balaji
+%Prabhakar and Prof. Nick McKeown,
+%Spring 2001 and Spring 2002, Stanford University.
+%
+%\item {\bf Instructor.} Networking, Center for Development of Advanced Computing (CDAC) at MET Mumbai, Winter 1997,
+%Bombay, India (jointly with Prof. A. Karandikar, I. I. T. Bombay).
+%
+%\end{itemize}
+
+
+% List of papers and publications and patents ?
+%===========================================
+%\vspace{0.1cm}
+\subsection*{PUBLICATIONS}
+\hrule
+\vspace{0.2cm}
+
+\subsubsection*{Google Scholar Profile}
+\begin{itemize}
+	\item Total Citations: 1245, H-index: 14, Link: \href{https://scholar.google.com/citations?user=lHKTSM8AAAAJ&hl=en}{Amir Farakhor}
+	%\item H-index: 14
+	%\item Link: \href{https://scholar.google.com/citations?user=lHKTSM8AAAAJ&hl=en}{Amir Farakhor}
+	%\url{https://scholar.google.com/citations?user=lHKTSM8AAAAJ&hl=en}
+\end{itemize}
+
+\subsubsection*{JOURNAL PAPERS: To be submitted}
+
+\begin{enumerate}
+    \item 
+Efficient Optimal Power Management for Battery Energy Storage Systems via Bayesian Inference
+
+\textbf{Amir Farakhor}, Di Wu, Yebin Wang, Huazhen Fang
+
+{\it IEEE Transactions on Control Systems Technology}
+
+    \item 
+Economic Optimal Power Management of Second-Life battery Energy Storage Systems
+
+\textbf{Amir Farakhor}, Di Wu, Huazhen Fang
+
+{\it IEEE Transactions on Sustainable Energy}
+
+\end{enumerate}
+
+\subsubsection*{JOURNAL PAPERS: In Press}
+
+\begin{enumerate}
+    \item 
+A Scalable Optimal Power Management for Large-Scale Battery Energy Storage Systems
+
+\textbf{Amir Farakhor}, Di Wu, Yebin Wang, Huazhen Fang
+
+{\it IEEE Transactions on Transportation Electrification}
+
+\end{enumerate}
+
+\subsubsection*{JOURNAL PAPERS: Published}
+
+\begin{enumerate}
+    \item 
+A Novel Modular, Reconfigurable Battery Energy Storage System: Design, Control, and Experimentation
+
+\textbf{Amir Farakhor}, Di Wu, Yebin Wang, Huazhen Fang
+
+{\it IEEE Transactions on Transportation Electrification}, 9 (2), pp. 2878–2890, 2023
+
+    \item 	
+A Study on an Improved Three-Winding Coupled Inductor Based DC/DC Converter with Continuous Input Current
+
+\textbf{Amir Farakhor}, Mehdi Abapour, Mehran Sabahi, Saeid Gholami Farkoush, Seung-Ryle Oh, Sang-Bong Rhee
+
+{\it Energies}, 13 (7), 2020
+
+    \item 	
+Design, Analysis, and Implementation of a Multiport DC–DC Converter for Renewable Energy Applications
+
+\textbf{Amir Farakhor}, Mehdi Abapour, Mehran Sabahi
+
+{\it IET Power Electronics}, 12 (3), pp. 465–475, 2019
+
+    \item 	
+Study on the Derivation of the Continuous Input Current High-Voltage Gain DC/DC Converters
+
+\textbf{Amir Farakhor}, Mehdi Abapour, Mehran Sabahi
+
+{\it IET Power Electronics}, 11 (10), pp. 1652–1660, 2018
+
+    \item 	
+Design Optimization of a Ćuk DC/DC Converter Based on Reliability Constraints
+
+Amirreza Zarrin Gharehkoushan, Mehdi Abapour, \textbf{Amir Farakhor}
+
+{\it Turkish Journal of Electrical Engineering and Computer Sciences}, 25 (3), pp. 1932–1945, 2017
+
+    \item 	
+Symmetric and Asymmetric Transformer Based Cascaded Multilevel Inverter with Minimum Number of Components
+
+\textbf{Amir Farakhor}, Rouzbeh Reza Ahrabi, Hossein Ardi, Sajad Najafi Ravadanegh
+
+{\it IET Power Electronics}, 8 (6), pp. 1052–1060, 2015
+
+    \item 	
+A Novel High Step-up DC/DC Converter Based on Integrating Coupled Inductor and Switched-Capacitor Techniques for Renewable Energy Applications
+
+Ali Ajami, Hossein Ardi, \textbf{Amir Farakhor}
+
+{\it IEEE Transactions on Power Electronics}, 30 (8), pp. 4255–4263, 2015
+
+    \item 	
+Design, Analysis and Implementation of a Buck–Boost DC/DC Converter
+
+Ali Ajami, Hossein Ardi, \textbf{Amir Farakhor}
+
+{\it IET Power Electronics}, 7 (12), pp. 2902–2913, 2014
+
+    \item 	
+Minimisations of Total Harmonic Distortion in Cascaded Transformers Multilevel Inverter by Modifying Turn ratios of the Transformers and Input Voltage Regulation
+
+Ali Ajami, \textbf{Amir Farakhor}, Hossein Ardi
+
+{\it IET Power Electronics}, 7 (11), pp. 2687–2694, 2014
+
+    \item 	
+Non-Isolated Multi-Input–Single-Output DC/DC Converter for Photovoltaic Power Generation Systems
+
+Mohammad Reza Banaei, Hossein Ardi, Rana Alizadeh, \textbf{Amir Farakhor}
+
+{\it IET Power Electronics}, 7 (11), pp. 2806–2816, 2014
+
+    \item 	
+Analysis and Implementation of a New Single-Switch Buck–Boost DC/DC Converter
+
+Mohammad Reza Banaei, Hossein Ardi, \textbf{Amir Farakhor}
+
+{\it IET Power Electronics}, 7 (7), pp. 1906–1914, 2014
+
+\end{enumerate}
+
+% This resets the counter for the enumerate environment.
+% \myEnumReset 
+
+\subsubsection*{CONFERENCE PROCEEDINGS: Under Review}
+
+\begin{enumerate}
+
+    \item 
+Optimal Power Management of Battery Energy Storage Systems via Ensemble Kalman Inversion
+
+\textbf{Amir Farakhor}, Iman Askari, Di Wu, Huazhen Fang
+
+{\it American Control Conference (ACC)}, 2024
+
+\end{enumerate}
+
+\subsubsection*{CONFERENCE PROCEEDINGS: Published}
+
+\begin{enumerate}
+
+    \item 
+Distributed Optimal Power Management for Battery Energy Storage Systems: A Novel Accelerated Tracking ADMM Approach
+
+\textbf{Amir Farakhor}, Yebin Wang, Di Wu, Huazhen Fang
+
+{\it American Control Conference (ACC)}, 2023
+
+    \item 
+A Novel Modular, Reconfigurable Battery Energy Storage System Design
+
+\textbf{Amir Farakhor}, Huazhen Fang
+
+{\it 47th Annual Conference of the IEEE Industrial Electronics Society (IECON)}, 2022
+
+    \item 
+Dynamic Modeling and Online Parameter Identification of a Coupled-Inductor-Based DC-DC Converter with Leakage Inductance Effect Consideration
+
+\textbf{Amir Farakhor}, Huazhen Fang
+
+{\it 47th Annual Conference of the IEEE Industrial Electronics Society (IECON)}, 2022
+
+    \item 
+A New Coupled Inductor-Based High Step-Up DC-DC Converter for PV Applications
+
+Alireza Eyvazizadeh Khosroshahi, Amin Shotorbani, Hoda Dadashzadeh, \textbf{Amir Farakhor}, Liwei Wang
+
+{\it 20th Workshop on Control and Modeling for Power Electronics (COMPEL)}, 2019
+
+    \item 
+A Two-Stage Coupled-Inductor-Based Cascaded DC-DC Converter with a High Voltage Gain
+
+Alireza E. Khosroshahi, Liwei Wang, Hoda Dadashzadeh, Hossein Ardi, \textbf{Amir Farakhor}, Amin Shotorbani
+
+{\it IEEE Canadian Conference of Electrical and Computer Engineering (CCECE)}, 2019
+
+    \item 
+Analysis and Design Procedure of a Novel High Voltage Gain DC/DC Boost Converter
+
+\textbf{Amir Farakhor}, Hossein Ardi, Mehdi Abapour
+
+{\it 8th Power Electronics, Drive Systems \& Technologies Conference (PEDSTC)}, 2017
+
+    \item 
+Application of Finite Control Set Model based Predictive method for power flow control using Unified Power Flow Controller
+
+\textbf{Amir Farakhor}, Alireza E Khosroshahi, Mehdi Abapour, Saeed Azimi Saadat
+
+{\it 9th International Conference on Electrical and Electronics Engineering (ELECO)}, 2015
+
+    \item 
+New Cascaded Multilevel Inverter Topology with Reduced Number of switches and Sources
+
+Seyed Hossein Hosseini, \textbf{Amir Farakhor}, Saeideh Khadem Haghighian
+
+{\it 8th International Conference on Electrical and Electronics Engineering (ELECO)}, 2013
+
+    \item 
+Novel Algorithm of Maximum Power Point Tracking (MPPT) for Variable Speed PMSG Wind Generation Systems through Model Predictive Control
+
+Seyed Hossein Hosseini, \textbf{Amir Farakhor}, Saeideh Khadem Haghighian
+
+{\it 8th International Conference on Electrical and Electronics Engineering (ELECO)}, 2013
+
+    \item 
+Novel Algorithm of MPPT for PV Array Based on Variable Step Newton-Raphson Method through Model Predictive Control
+
+Seyed Hossein Hosseini, \textbf{Amir Farakhor}, Saeideh Khadem Haghighian
+
+{\it 13th International Conference on Control, Automation and Systems (ICCAS)}, 2013
+
+\end{enumerate}
+
+\myEnumReset 
+
+\subsection*{PATENTS \& APPLICATIONS}
+\hrule
+\vspace{0.2cm}
+
+\begin{enumerate}
+
+    \item 
+A Modular, Reconfigurable Battery Energy Storage System (RBESS)
+
+\textbf{Amir Farakhor}, Huazhen Fang
+
+PCT/US2022/077918, 2022
+
+\end{enumerate}
+
+\myEnumReset 
+
+\subsection*{RESEARCH INTERESTS}
+\hrule
+\vspace{0.2cm}
+
+%\begin{itemize}
+%	\item {\bf Energy Storage Systems}
+%	\begin{itemize}
+%		\item Design, Optimal Control, and Experimental Demonstration
+%	\end{itemize}
+%
+%	\item {\bf Energy Management of Large-Scale systems}
+%	\begin{itemize}
+%		\item Grid-Interactive Buildings
+%		\item Community-Level Energy Systems
+%		\item Outer Space Energy Generation, Distribution, and Management
+%	\end{itemize}
+%
+%	\item {\bf Renewable Energy}
+%	\begin{itemize}
+%		\item Sustainable Energy Generation and Distribution
+%		\item Maximum Power Extraction from Wind and Solar Energy Sources
+%		\item Power Electronics
+%	\end{itemize}
+%
+%	\item {\bf Electric Vehicles}
+%	\begin{itemize}
+%		\item Battery Pack Design and Optimization
+%		\item Powertrain Design and Control
+%		\item Power Electronics for Electric Vehicle Applications
+%	\end{itemize}
+%
+%	\item {\bf Optimal Control}
+%	\begin{itemize}
+%		\item Model Predictive Control
+%		\item Optimal Control Through Cloud Computing
+%		\item Distributed Optimal Control in the Presence of Communication
+%	\end{itemize}
+%\end{itemize}
+
+\begin{itemize}
+	\setlength\itemsep{1em}
+	\item{\bf Energy Storage Systems}: Design, optimal control strategies, and experimental validation.	
+	\item{\bf Renewable Energy}: Sustainable generation and distribution, efficient power extraction from wind and solar sources, and advancements in power electronics.
+	\item{\bf Energy Management}: Large-scale systems, including grid-interactive buildings, community-level energy systems, and energy solutions for outer space.
+	\item{\bf Electric Vehicles}: Battery pack, powertrain, and power electronics design and control.
+	\item{\bf Power Electronics}: Design, control, and experimentation of various power electronic converters with applications in charging stations, renewable energy generation systems, and advanced grid integration technologies.
+	\item{\bf Optimal Control}: Model predictive control, cloud-based optimal control, and distributed control in communication-rich environments, enhancing system efficiency and performance.
+\end{itemize}
+
+%\begin{tabbing}
+%xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%%\>\begin{tabular*}{6.1in}{lr}
+%
+%\>\begin{tabular*}{0.9\linewidth}{l@{\extracolsep{\fill}}r}
+%\textbf{Graduate Research Assistant} & University of Kansas \\
+%Research Supervisor: Dr. Huazhen Fang  & Dept. of Mechanical Engineering\\
+% & {\it Spring 2022 - Fall 2023}\\ 
+% & \\
+%
+%%\textbf{Graduate Teaching Assistant} & University of Kansas \\
+%%\textbf{Course}: Mechanical Engineering Measurements and Experiments & Dept. of Mechanical Engineering\\
+%%Teaching Supervisor: Dr. Carl Luchies & {\it Fall 2023}\\ 
+%% & \\
+%
+%\end{tabular*}
+%\end{tabbing}
+
+%\vspace{0.1cm}
+%\newpage
+\subsection*{TEACHING EXPERIENCE}
+\hrule
+\vspace{0.2cm}
+
+\begin{tabbing}
+xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>\begin{tabular*}{6.1in}{lr}
+
+\>\begin{tabular*}{0.9\linewidth}{l@{\extracolsep{\fill}}r}
+\textbf{Lecturer} & University of Kansas \\
+\textbf{Course}: EECS 444 Control Systems  & Dept. of Electrical Eng. and Computer Science\\
+ & {\it Spring 2024}\\ 
+ & \vspace{-5pt}\\
+
+\textbf{Graduate Teaching Assistant} & University of Kansas \\
+\textbf{Course}: Mechanical Engineering Measurements and Experiments & Dept. of Mechanical Engineering\\
+Teaching Supervisor: Dr. Carl Luchies & {\it Fall 2023}\\ 
+ & \vspace{-5pt}\\
+
+\textbf{Volunteer Instructor} & University of Kansas \\
+KU Engineering Summer Camp: Control and Robotics  & Dept. of Mechanical Engineering\\
+& {\it Summer 2022-2023}\\ 
+ & \vspace{-5pt}\\
+
+\textbf{Graduate Teaching Assistant} & University of Kansas \\
+\textbf{Course}: Mechanical Engineering Measurements and Experiments & Dept. of Mechanical Engineering\\
+Teaching Supervisor: Dr. Carl Luchies & {\it Fall 2021}\\ 
+ & \vspace{-5pt}\\
+
+\textbf{Graduate Teaching Assistant} & University of Kansas \\
+\textbf{Course}: Mechanical Engineering Measurements and Experiments & Dept. of Mechanical Engineering\\
+Teaching Supervisor: Dr. Geng Ku& {\it Spring 2021}\\ 
+\end{tabular*}
+\end{tabbing}
+
+\subsection*{PRESENTATIONS}
+\hrule
+\vspace{0.2cm}
+
+\subsubsection*{CONFERENCE TALKS}
+\begin{enumerate}
+    \item 
+       ``Distributed Optimal Power Management for Battery Energy Storage Systems: A Novel Accelerated Tracking ADMM Approach",
+       {\it American control Conference (ACC)}, San Diego, California, U.S., May 2023. 
+    \item 
+       ``Reconfigurable Design of Battery Energy Storage Systems: From Architecture to Control",
+       {\it 4th International Conference on Smart Power \& Internet Energy Systems}, Beijing, China, December 2022. 
+    \item 
+       ``A Novel Modular, Reconfigurable Battery Energy Storage System Design",
+       {\it 47th Annual Industrial Electronics Conference (IECON)}, Virtual Conference, October 2021.
+    \item 
+       ``Dynamic Modeling and Online Parameter Identification of a Coupled-Inductor-Based DC-DC Converter with Leakage Inductance Effect Consideration",
+       {\it 47th Annual Industrial Electronics Conference (IECON)}, Virtual Conference, October 2021.
+    \item 
+       ``Analysis and Design Procedure of a Novel High Voltage Gain DC/DC Boost Converter",
+       {\it 8th Power Electronics, Drive Systems \& Technologies Conference (PEDSTC)}, Mashhad, Iran, February 2017.
+    \item 
+       ``Optimal Integration of Wind Power Resources in Distribution Networks Considering Demand Response Programs",
+       {\it 9th International Conference on Electrical and Electronics Engineering (ELECO)}, Bursa, Turkey, November 2015. 
+    \item 
+       ``Impact of Active Network Management in Operation of Tabriz Distribution System",
+       {\it 9th International Conference on Electrical and Electronics Engineering (ELECO)}, Bursa, Turkey, November 2015. 
+\end{enumerate}
+
+%\vspace{0.1cm}
+\subsection*{HONORS AND AWARDS}
+\hrule
+\vspace{0.2cm}
+
+{\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{llr}
+ 2023 & \textbf{Recipient}, ACC Student Travel Grant & \textit{American Control Conference} \\
+ 2023 & \textbf{Recipient}, Tradition of Excellence Award & \textit{University of Kansas} \\
+ 2023 & \textbf{First Place}, Graduate Engineering Association - Research Showcase & \textit{University of Kansas} \\
+ 2023 & \textbf{First Place}, Research Symposium of the Inst. for Information Sciences (I2S) & \textit{University of Kansas} \\
+ 2023 & \textbf{Presenter}, Capital Graduate Research Summit (CGRS) & \textit{University of Kansas} \\
+ 2022 & \textbf{Student of the Year}, Information and Smart Systems Laboratory (ISSL) & \textit{University of Kansas} \\
+ 2022 & \textbf{Winner}, KU Engineering Research Showcase (Poster Presentation) & \textit{University of Kansas} \\
+ 2022 & \textbf{Third Place}, KU Engineering Research Showcase (Virtual Presentation) & \textit{University of Kansas} \\
+\end{tabular}
+}
+
+
+%\begin{itemize}
+%	\item Technical Program Committee Member, QoS-IP, Milano, Italy, 2003.
+%	\item Member Network Processing Forum (Originally CPIX) - 2000-2001.
+%\end{itemize}
+
+%\vspace{0.1cm}
+\subsection*{ACADEMIC SERVICE}
+\hrule
+\vspace{0.2cm}
+
+{\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{rl}
+ \textbf{Publicity Chair} & 7th IEEE International Conference on Industrial Cyber-Physical Systems (ICPS) - 2024 \\
+ \textbf{Reviewer} & IEEE Transactions of Power Electronics (20 Reviews) \\
+ \textbf{Reviewer} & IEEE Transactions of Industrial Electronics (32 Reviews) \\
+ \textbf{Reviewer} & IEEE Transactions of Energy Conversion (17 Reviews) \\
+ \textbf{Reviewer} & IEEE Open Journal of Industrial Electronics Society (11 Reviews) \\
+ \textbf{Reviewer} & IEEE Transactions of Vehicular Technology (2 Reviews) \\
+ \textbf{Reviewer} & IEEE Transactions of Transportation Electification (2 Reviews) \\
+ \textbf{Reviewer} & IEEE Transactions of Industrial Applications (1 Reviews) \\
+ \textbf{Reviewer} & International Transactions in Electrical Energy Systems (3 Reviews) \\
+ \textbf{Reviewer} & IEEE Control Systems Letters (3 Reviews) \\
+\end{tabular}
+}
+
+%\begin{itemize}
+%	\item \textbf{Publicity Chair} \hspace{1cm} The 7th IEEE International Conference on Industrial Cyber-Physical Systems (ICPS) - 2024
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Transactions of Power Electronics (20 Reviews)
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Transactions of Industrial Electronics (26 Reviews)
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Transactions of Energy Conversion (16 Reviews)
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Open Journal of Industrial Electronics Society (8 Reviews)
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Transactions of Vehicular Technology (2 Reviews)
+%	\item \textbf{Reviewer} \hspace{1cm} IEEE Transactions of Transportation Electification (2 Reviews)
+%\end{itemize}
+
+% \begin{multicols}{3}[\section*{Long title across all the columns}]
+
+%\vspace{0.1cm}
+%\subsection*{LANGUAGES}
+%\hrule
+%\vspace{0.2cm}
+%\begin{list}{}{}
+%	\item  Proficient in English, Hindi and Marathi. Working knowledge of Tamil and German.
+%\end{list}
+
+%\newpage
+
+\vspace{0.1cm}
+%\begin{multicols}{2} [\subsection*{REFERENCES}]
+
+%\newpage
+
+\subsection*{REFERENCES}
+\hrule
+
+%\vspace{0.2cm}
+%\subsubsection*{FROM ACADEMIA}
+
+\begin{footnotesize}
+
+\begin{multicols}{2} 
+\noindent 
+Dr. Huazhen Fang \\
+Associate Professor \\
+Dept. of Mechnical Engineering \\
+University of Kansas, Lawrence, KS \\
+fang@ku.edu \\
+
+\noindent
+Dr. Di Wu\\
+Chief Engineer and Team Leader \\
+Optimization and Control Group \\
+Pacific Northwest National Laboratory (PNNL), Richland, WA \\
+di.wu@pnnl.gov \\
+
+\columnbreak
+
+\noindent 
+Dr. Carl Luchies \\
+Associate Professor \\
+Dept. of Mechnical Engineering \\
+University of Kansas, Lawrence, KS \\
+luchies@ku.edu \\
+
+\noindent
+Dr. Geng Ku \\
+Laboratory Manager/Staff Scientist \\
+Dept. of Mechnical Engineering \\
+California Institute of Technology (Caltech) \\
+gku@caltech.edu \\
+
+\end{multicols}
+
+%\subsubsection*{FROM INDUSTRY}
+%\begin{multicols}{2} 
+%
+%\noindent
+%Dr. Flavio Bonomi\\
+%Chief Architect \\
+%Cisco Systems \\
+%170 West Tasman Dr. \\
+%San Jose, CA 95134 \\
+%Phone: (408) 526-4085 \\
+%flavio@cisco.com \\
+%
+%\columnbreak
+%\noindent
+%Mr. Ajit Shelat \\
+%Chief Technology Officer \\
+%SwitchOn Networks (now PMC-Sierra) \\
+%5 Mantri Mansion, Vrindavan Society \\
+%Pashan, Pune, 411 008, India \\
+%Phone: +91-20-589-8412 \\
+%ashelat@vsnl.com\\
+%
+%\end{multicols}
+%\begin{tabbing}
+%xxxx\=xxxxxxxxxxxxxxxxxxxxx\=xxxx\=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=\kill
+%\>{Nick McKeown}\> :\>nickm@stanford.edu\\
+%\>{Balaji Prabhakar}\>:\>balaji@stanford.edu\\
+%\>{Ajit Shelat}\>:\>ajit\_shelat@pmc-sierra.com\\
+%\>{S.S.S.P. Rao}\>:\>ssspr@cse.iitb.ernet.in\\
+%\end{tabbing}
+%\newpage
+
+\end{footnotesize}
+\end{small}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
